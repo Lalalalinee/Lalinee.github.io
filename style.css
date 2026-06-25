@@ -3,15 +3,29 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+
+    /* พื้นหลังพาสเทล ม่วง-ทอง-ขาว */
+    background: linear-gradient(
+        135deg,
+        #f8f4ff 0%,
+        #e8d9ff 35%,
+        #fff9d6 70%,
+        #ffffff 100%
+    );
+
     color: #333;
 }
 
 header {
-    background: #4CAF50;
+    background: linear-gradient(
+        135deg,
+        #b388ff,
+        #ffd54f
+    );
     color: white;
     padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 header h1 {
@@ -26,28 +40,42 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: white;
-    border-radius: 8px;
+
+    /* กล่องสีขาวโปร่งนิด ๆ */
+    background: rgba(255, 255, 255, 0.9);
+
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(179, 136, 255, 0.15);
 }
+
 h2 {
-  color: #4CAF50;
+    color: #9c6ade;
 }
+
 .project {
     margin-bottom: 20px;
 }
 
 .project h3 {
     margin: 0 0 10px;
-    color: #333;
+    color: #6a4caf;
 }
+
 ul {
-    list-style-type: square; 
+    list-style-type: square;
     padding-left: 20px;
 }
+
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333; 
+
+    background: linear-gradient(
+        135deg,
+        #9c6ade,
+        #f4c542
+    );
+
     color: white;
     margin-top: 20px;
 }
